@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jose Jaraba Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Belleza&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Jose Jaraba Portfolio</div>
+        <ul class="nav-links">
+          <li><a href="#about"><i data-lucide="user"></i> About me</a></li>
+          <li><a href="#skills"><i data-lucide="bar-chart-3"></i> Skills</a></li>
+          <li><a href="#portfolio"><i data-lucide="folder-open"></i> Projects</a></li>
+          <li><a href="#contact"><i data-lucide="mail"></i> Contact me</a></li>
+        </ul>
+      </nav>
+
+      <section id="about">
+        <div class="about-text">
+          <h1 class="name">Jose Alejandro Jaraba Gaviria</h1>
+          <p class="presentation">
+            I am a fullstack web developer passionate about continuous learning and constant improvement. I enjoy working in
+            teams, collaborating to achieve goals, and exceeding expectations. My focus is on delivering efficient and scalable
+            solutions while maintaining a proactive attitude and openness to new challenges. I am motivated by problemsolving
+            and adapting to different project contexts, always seeking to add value and grow professionally. My ability to
+            manage time and flexibility allows me to perform efficiently in dynamic and challenging environments.
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/Josealjaga" target="_blank"><i data-lucide="github"></i></a>
+            <a href="https://linkedin.com/in/tuusuario" target="_blank"><i data-lucide="linkedin"></i></a>
+            <a class="download-cv" href="assets/CV.pdf"><i data-lucide="download"></i>Download CV</a>
+          </div>
+        </div>
+        <div class="about-photo">
+          <img src="assets/foto.png" alt="Profile Photo" class="foto-img" />
+        </div>
+      </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+  
+    <div class="skills-grid">
+  
+      <div class="skill-card">
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML <span>95%</span></li>
+          <li>CSS <span>90%</span></li>
+          <li>JavaScript <span>90%</span></li>
+          <li>React <span>85%</span></li>
+        </ul>
+      </div>
+  
+      <div class="skill-card">
+        <h3>Backend</h3>
+        <ul>
+          <li>Node.js <span>80%</span></li>
+          <li>Express <span>78%</span></li>
+        </ul>
+      </div>
+  
+      <div class="skill-card">
+        <h3>Bases de Datos</h3>
+        <ul>
+          <li>PostgreSQL <span>85%</span></li>
+          <li>MongoDB <span>75%</span></li>
+        </ul>
+      </div>
+  
+      <div class="skill-card">
+        <h3>DevOps</h3>
+        <ul>
+          <li>Docker <span>70%</span></li>
+          <li>Git & GitHub <span>90%</span></li>
+        </ul>
+      </div>
+  
+    </div>
+  </section>
+  
+  
+  <section id="portfolio">
+    <h2>Projects</h2>
+    <div class="projects">
+  
+      <a href="https://github.com/Josealjaga/taskmanager-front" target="_blank" class="project-card">
+        <img src="assets/project1.png" alt="Project Screenshot" />
+        <h3>Task Manager</h3>
+        <p>A modern task manager interface that enables users to register/login, organize tasks via lists or Kanban, and view dashboards summarizing their activities.</p>
+        <div class="tags">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>MySQL</span>
+          <span>JWT</span>
+          <span>Express</span>
+          <span>Tailwind CSS</span>
+        </div>
+      </a>
+  
+      <a href="https://github.com/Josealjaga/PelisFav" target="_blank" class="project-card">
+        <img src="assets/project2.png" alt="Project Screenshot" />
+        <h3>Pelis-Fav</h3>
+        <p>This project lets users search for movies, add their favorites to a personalized list, and view details like synopsis, rating, and poster from a third-party API.</p>
+        <div class="tags">
+          <span>Html</span>
+          <span>CSS</span>
+          <span>Fetch Api</span>
+          <span>JavaScript</span>
+          <span>Miniprograms</span>
+        </div>
+      </a>
+  
+    </div>
+  </section>
+  
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p class="contact-message">
+      I'm open to exciting projects and job opportunities. Feel free to reach out if you'd like to collaborate or have something in mind!
+    </p>
+    <div class="contact-card">
+      <form action="https://formspree.io/f/mjkrezvy" method="POST" id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+  
+  
+
+  <footer>
+    <p>&copy; 2025 Jose Alejandro Jaraba</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
